@@ -19,8 +19,8 @@ def predict():
     features = [np.array(float_features)]
     print(features)
     prediction = model_x.predict(features)
-
-    return render_template('index.html', prediction_text = "The % prediction is {}".format(prediction))
+    predcited = prediction[0]
+    return render_template('index.html', prediction_text = "The Vendor is: {}".format(predcited))
 
 
 if __name__ == '__main__':
