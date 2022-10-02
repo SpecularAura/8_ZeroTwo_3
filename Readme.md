@@ -8,7 +8,8 @@
         1. matplotlib
         2. Seaborn
 - Tableau For Data Visualization
-
+### Deployment:
+- Flask is used for the front end development
 ## Dataset:
 
 
